@@ -108,6 +108,17 @@ La conclusione principale dell'indagine è un esito positivo al phishing: l'inte
 
 ---
 
+ ## Pattern appresi
+
+- Social engineering tramite richiesta finanziaria inattesa
+- Spoofing del mittente
+- Discrepanza tra nome apparente e vera estensione dell'allegato
+- IP/domain reputation come indicatori di supporto
+- Hash come IOC per identificare un campione
+- Correlazione di più indicatori prima del verdict
+
+---
+
 ## Query utilizzate
 
 Nessuna query SPL utilizzata in questa analisi. Comando usato per il calcolo dell'hash:
@@ -125,11 +136,4 @@ Riferimenti
  - EasyDMARC
 
 
- ## Pattern appresi
 
-- Social engineering tramite richiesta finanziaria inattesa
-- Spoofing del mittente
-- Discrepanza tra nome apparente e vera estensione dell'allegato
-- IP/domain reputation come indicatori di supporto
-- Hash come IOC per identificare un campione
-- Correlazione di più indicatori prima del verdict
